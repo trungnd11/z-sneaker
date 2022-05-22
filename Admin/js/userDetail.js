@@ -1,6 +1,6 @@
 "use strict";
 /*** REGION 1 - Global variables - Vùng khai báo biến, hằng số, tham số TOÀN CỤC */
-const gURL_EMPLOYEE = "http://localhost:8080/employees";
+const gURL_EMPLOYEE = "https://z-sneaker.herokuapp.com/employees";
 /*** REGION 2 - Vùng gán / thực thi hàm xử lý sự kiện cho các elements */
 $(document).ready(function () {
 

@@ -1,8 +1,8 @@
 "use strict";
 // Region 1: Globle varibles
-const gURL_ROLE = "http://localhost:8080/roles";
-const gURL_CUSTOMER = "http://localhost:8080/customers";
-const gURL_EMPLOYEE = "http://localhost:8080/employees";
+const gURL_ROLE = "https://z-sneaker.herokuapp.com/roles";
+const gURL_CUSTOMER = "https://z-sneaker.herokuapp.com/customers";
+const gURL_EMPLOYEE = "https://z-sneaker.herokuapp.com/employees";
 // biến lưu trạng thái của form
 const gFORM_MODE_NORMAL = "Normal";
 const gFORM_MODE_INSERT = "Insert";

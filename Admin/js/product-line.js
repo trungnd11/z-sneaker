@@ -1,7 +1,7 @@
 
 "use strict";
 // Region 1: Globle variables
-const gURL_PRODUCT_LINE = "http://localhost:8080/product-lines";
+const gURL_PRODUCT_LINE = "https://z-sneaker.herokuapp.com/product-lines";
 
 // biến lưu trạng thái của form
 const gFORM_MODE_NORMAL = "Normal";

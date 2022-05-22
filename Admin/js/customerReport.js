@@ -1,5 +1,5 @@
 // Region 1: Global variables
-const gURL_CUSTOMER = "http://localhost:8080/customers"
+const gURL_CUSTOMER = "https://z-sneaker.herokuapp.com/customers"
 gDataSumMomey = [];
 gDataSumOrder = [];
 gData = [];

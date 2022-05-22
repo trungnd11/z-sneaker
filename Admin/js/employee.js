@@ -1,6 +1,6 @@
 "use strict";
 // Region 1:Globle variables
-const gURL = "http://localhost:8080/employees";
+const gURL = "https://z-sneaker.herokuapp.com/employees";
 // biến lưu trạng thái của form
 const gFORM_MODE_NORMAL = "Normal";
 const gFORM_MODE_INSERT = "Insert";

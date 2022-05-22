@@ -1,6 +1,6 @@
 // Region 1: Global variables
 $('#reservation').daterangepicker();
-const gURL_ORDER = "http://localhost:8080/orders";
+const gURL_ORDER = "https://z-sneaker.herokuapp.com/orders";
 var gData = [];
 var options = {
     animationEnabled: true,

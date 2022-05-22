@@ -1,5 +1,5 @@
 // Region 1: Global variables
-const gURL_USER = "http://localhost:8080/users";
+const gURL_USER = "https://z-sneaker.herokuapp.com/users";
 
 // Region 2:  Event execute element
 $(document).ready(function () {

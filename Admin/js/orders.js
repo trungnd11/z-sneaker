@@ -1,9 +1,9 @@
 "use strict";
 // Region 1: Global variables
-const gURL = "http://localhost:8080/orders";
-const gURL_CUSTOMER = "http://localhost:8080/customers";
-const gURL_ORDER_DETAIL = "http://localhost:8080/order-details";
-const gURL_PRODUCT = "http://localhost:8080/products"
+const gURL = "https://z-sneaker.herokuapp.com/orders";
+const gURL_CUSTOMER = "https://z-sneaker.herokuapp.com/customers";
+const gURL_ORDER_DETAIL = "https://z-sneaker.herokuapp.com/order-details";
+const gURL_PRODUCT = "https://z-sneaker.herokuapp.com/products"
 // biến lưu trạng thái của form
 const gFORM_MODE_NORMAL = "Normal";
 const gFORM_MODE_INSERT = "Insert";
@@ -551,7 +551,7 @@ function getCustomerId(event) {
     let customerId = event.target.value;
     if (customerId !== "0") {
         $.ajax({
-            url: `http://localhost:8080/orders/customer/${customerId}`,
+            url: `https://z-sneaker.herokuapp.com/orders/customer/${customerId}`,
             method: "GET",
             dataType: "json",
             success: getOrdersList,

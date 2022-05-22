@@ -1,10 +1,10 @@
 
 "use strict";
 // Region 1: Globle variables
-const gURL = "http://localhost:8080/products";
-const gURL_PRODUCT_LINE = "http://localhost:8080/product-lines";
-const gURL_PRODUCT_IMG = "http://localhost:8080/images";
-const gURL_RATING = "http://localhost:8080/rating/review";
+const gURL = "https://z-sneaker.herokuapp.com/products";
+const gURL_PRODUCT_LINE = "https://z-sneaker.herokuapp.com/product-lines";
+const gURL_PRODUCT_IMG = "https://z-sneaker.herokuapp.com/images";
+const gURL_RATING = "https://z-sneaker.herokuapp.com/rating/review";
 // biến lưu trạng thái của form
 const gFORM_MODE_NORMAL = "Normal";
 const gFORM_MODE_INSERT = "Insert";
