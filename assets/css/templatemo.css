@@ -221,7 +221,7 @@ a {
 }
 
 .offer {
-  background: url("assets/img/banner/Banner_giay_th_thao_couple_Dong_H_i_f742f1c6-4d61-4f6b-a308-8df19a71d725_2048x2048.jpg") right center no-repeat;
+  background: url("/assets/img/banner/nike_banner.jpg") right center no-repeat;
   background-size: cover !important;
 }
 @media (min-width: 1200px) {
