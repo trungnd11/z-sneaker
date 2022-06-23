@@ -221,7 +221,7 @@ a {
 }
 
 .offer {
-  background: url("/assets/img/banner/nike_banner.jpg") right center no-repeat;
+  background: url("https://trungnd11.github.io/z-sneaker/assets/img/banner/nike_banner.jpg");
   background-size: cover !important;
 }
 @media (min-width: 1200px) {
