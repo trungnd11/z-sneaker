@@ -78,7 +78,10 @@ function callApiGetDataUser(paramUserId) {
         url: gURL_USER + `/${paramUserId}`,
         method: "get",
         success: function (responseUser) {
-            $("#user-image").attr("src", `/${responseUser.photos}`);
+            $("#user-image").attr(
+              "src",
+              `${domain}/z-sneaker/${responseUser.photos}`
+            );
             $("#show-username").html(`${responseUser.employee.lastName} ${responseUser.employee.firstName}`);
             $("#Demo").empty();
             $("#Demo").append(`

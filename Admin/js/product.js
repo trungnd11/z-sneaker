@@ -54,7 +54,9 @@ var gProductTable = $("#product-table").DataTable({
         {
             targets: gCOL_PRODUCT_IMG,
             render: function (data) {
-                return `<div class="try"><img src="/${data[data.length - 1].url}" class="img-thumbnail toggle btn-image"></img>`;
+                return `<div class="try"><img src="${domain}/z-sneaker${
+                  data[data.length - 1].url
+                }" class="img-thumbnail toggle btn-image"></img>`;
             }
         },
         {
@@ -100,7 +102,7 @@ var gImageProductTable = $("#table-image").DataTable({
         {
             targets: gCOL_PRODUCT_IMAGE,
             render: function (data) {
-                return `<div class="try"><img src="${domain}z-sneaker/${data}" class="img-thumbnail toggle btn-image"></img>`;
+                return `<div class="try"><img src="${domain}/z-sneaker/${data}" class="img-thumbnail toggle btn-image"></img>`;
             }
         },
         {
