@@ -44,7 +44,7 @@ var gUserTable = $("#user-table").DataTable({
         {
             targets: gCOL_PHOTO,
             render: function (data) {
-                return `<div class="try"><img src="/${data}" class="img-thumbnail toggle btn-image" style="width: 80px; height: 80px"></img>`;
+                return `<div class="try"><img src="${domain}/z-sneaker/${data}" class="img-thumbnail toggle btn-image" style="width: 80px; height: 80px"></img>`;
             }
         },
         {

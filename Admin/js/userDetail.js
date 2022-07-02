@@ -259,7 +259,7 @@ function getDataEmployee(paramEmployee) {
 function showDataUser(paramDataUser) {
     console.log(paramDataUser)
     $("#btn-save").attr("data", paramDataUser.employee.id);
-    $("#img-user").attr("src", `/${paramDataUser.photos}`);
+    $("#img-user").attr("src", `${domain}/z-sneaker/${paramDataUser.photos}`);
     $("#inp-username").html(paramDataUser.username);
     $("#inp-lastname").val(paramDataUser.employee.lastName);
     $("#inp-firstname").val(paramDataUser.employee.firstName);   

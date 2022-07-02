@@ -54,7 +54,7 @@ var gProductTable = $("#product-table").DataTable({
         {
             targets: gCOL_PRODUCT_IMG,
             render: function (data) {
-                return `<div class="try"><img src="${domain}/z-sneaker${
+                return `<div class="try"><img src="${domain}/z-sneaker/${
                   data[data.length - 1].url
                 }" class="img-thumbnail toggle btn-image"></img>`;
             }
