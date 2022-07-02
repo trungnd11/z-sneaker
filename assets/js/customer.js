@@ -1,6 +1,7 @@
 "use strict";
 /*** REGION 1 - Global variables - Vùng khai báo biến, hằng số, tham số TOÀN CỤC */
 const gURL_USER = "https://z-sneaker.herokuapp.com/users";
+const domain = window.location.origin;
 var gProductNumber = [];
 /*** REGION 2 - Vùng gán / thực thi hàm xử lý sự kiện cho các elements */
 $(document).ready(function () {
@@ -89,7 +90,7 @@ function onBtnAddCart(paramButtom) {
 
 // đăng xuất tài khoản
 function onBtnLogoutUser() {
-    deleteCookie("token");
+    deleteCookie("token", "/", domain);
     window.location.href = "login.html";
 }
 
