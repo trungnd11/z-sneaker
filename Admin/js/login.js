@@ -82,7 +82,7 @@ function callApiGetDataUser(paramUserId) {
             $("#Demo").empty();
             $("#Demo").append(`
                 <div class="w3-container mt-2 w3-dark user-detail">
-                    <img src="/${responseUser.photos}" alt="Avatar" class="w3-left w3-circle mt-1 mr-3"
+                    <img src="z-sneaker/${responseUser.photos}" alt="Avatar" class="w3-left w3-circle mt-1 mr-3"
                         style="width: 30px;height: 30px; cursor: pointer;">
                     <p class="pt-1 mt-1 px-2" style="cursor: pointer;"><a href="userDetail.html?userId=${responseUser.id}" class ="ms-3 w3-text-black w3-hover-text-green"id = ${responseUser.id}>${responseUser.username}</a></p>
                 </div>
