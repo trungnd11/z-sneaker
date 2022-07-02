@@ -100,7 +100,7 @@ var gImageProductTable = $("#table-image").DataTable({
         {
             targets: gCOL_PRODUCT_IMAGE,
             render: function (data) {
-                return `<div class="try"><img src="/${data}" class="img-thumbnail toggle btn-image"></img>`;
+                return `<div class="try"><img src="${domain}z-sneaker/${data}" class="img-thumbnail toggle btn-image"></img>`;
             }
         },
         {

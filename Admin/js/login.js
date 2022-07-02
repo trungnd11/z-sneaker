@@ -1,5 +1,6 @@
 // Region 1: Global variables
 const gURL_USER = "https://z-sneaker.herokuapp.com/users";
+const domain = window.location.origin;
 
 // Region 2:  Event execute element
 $(document).ready(function () {
@@ -82,7 +83,7 @@ function callApiGetDataUser(paramUserId) {
             $("#Demo").empty();
             $("#Demo").append(`
                 <div class="w3-container mt-2 w3-dark user-detail">
-                    <img src="/${responseUser.photos}" alt="Avatar" class="w3-left w3-circle mt-1 mr-3"
+                    <img src="${domain}/z-sneaker/${responseUser.photos}" alt="Avatar" class="w3-left w3-circle mt-1 mr-3"
                         style="width: 30px;height: 30px; cursor: pointer;">
                     <p class="pt-1 mt-1 px-2" style="cursor: pointer;"><a href="userDetail.html?userId=${responseUser.id}" class ="ms-3 w3-text-black w3-hover-text-green"id = ${responseUser.id}>${responseUser.username}</a></p>
                 </div>
@@ -91,7 +92,7 @@ function callApiGetDataUser(paramUserId) {
                     <li class="w3-hover-text-blue btn-change-password" style="cursor: pointer;">Đổi mật khẩu</li>
                     <li class="w3-hover-text-red btn-logout" style="cursor: pointer;">Đăng xuất</li>
                 </ul>
-            `)
+            `);
         },
         error: function () {
             showAlert("error", "Xin lỗi hệ thống quá tải, vui lòng thử lại");

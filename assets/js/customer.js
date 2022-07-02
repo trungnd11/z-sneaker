@@ -90,7 +90,7 @@ function onBtnAddCart(paramButtom) {
 
 // đăng xuất tài khoản
 function onBtnLogoutUser() {
-    deleteCookie("token", "/", domain);
+    deleteCookie("token");
     window.location.href = "login.html";
 }
 
